@@ -9,7 +9,20 @@
     <Version>0.0.1</Version>
     <Authors>Phoenix</Authors>
     <Company>Valhalla</Company>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/yggdrasill-dev/PhoenixToolkits.TestHost</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yggdrasill-dev/PhoenixToolkits.TestHost.git</RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <PackageTags>test</PackageTags>
+    <Description>建立測試用 WebHost</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.7" />
