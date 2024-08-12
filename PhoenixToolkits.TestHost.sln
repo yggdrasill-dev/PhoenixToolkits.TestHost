@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoenixToolkits.TestHost", "PhoenixToolkits.TestHost\PhoenixToolkits.TestHost.csproj", "{1298E5E8-373C-4028-86FE-EC9935050BCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項目", "{3E5DB637-ADC0-40E3-8B8D-6798C0AFD86D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA706207-99CF-478B-8615-4E50602737F1}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1298E5E8-373C-4028-86FE-EC9935050BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1298E5E8-373C-4028-86FE-EC9935050BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1298E5E8-373C-4028-86FE-EC9935050BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1298E5E8-373C-4028-86FE-EC9935050BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
