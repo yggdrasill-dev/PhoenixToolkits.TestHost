@@ -1,6 +1,6 @@
-﻿using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Hosting;
 
-namespace PhoenixToolkits.TestHost;
+namespace Valhalla.TestHost;
 
 public readonly struct HostAsyncDisposable(IHost host) : IHost, IAsyncDisposable
 {
