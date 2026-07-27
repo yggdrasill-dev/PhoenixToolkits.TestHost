@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/方案項目/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="PhoenixToolkits.TestHost/PhoenixToolkits.TestHost.csproj" />
+</Solution>
