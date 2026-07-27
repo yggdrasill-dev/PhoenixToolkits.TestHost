@@ -6,10 +6,11 @@
     <Nullable>enable</Nullable>
     <RootNamespace>Valhalla.TestHost</RootNamespace>
     <PackageId>PhoenixToolkits.TestHost</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>Phoenix</Authors>
     <Company>Valhalla</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/yggdrasill-dev/PhoenixToolkits.TestHost</PackageProjectUrl>
     <RepositoryUrl>https://github.com/yggdrasill-dev/PhoenixToolkits.TestHost.git</RepositoryUrl>
     <RepositoryType></RepositoryType>
