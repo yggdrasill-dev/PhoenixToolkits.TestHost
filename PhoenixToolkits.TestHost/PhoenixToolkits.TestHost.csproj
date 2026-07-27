@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <RootNamespace>Valhalla.TestHost</RootNamespace>
     <PackageId>PhoenixToolkits.TestHost</PackageId>
-    <Version>0.0.1</Version>
+    <Version>0.1.0</Version>
     <Authors>Phoenix</Authors>
     <Company>Valhalla</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
