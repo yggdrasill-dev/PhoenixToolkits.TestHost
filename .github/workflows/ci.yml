@@ -33,6 +33,9 @@ jobs:
   push-nuget-package:
     runs-on: self-hosted
     needs: build
+    permissions:
+      id-token: write        # 允許此 job 取得 GitHub OIDC token（Trusted Publishing 必要）
+      actions: read          # download-artifact 抓同 run 的 artifact 用
     steps:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v4
@@ -42,6 +45,12 @@ jobs:
         # Destination path
         path: nuget
 
+    - name: NuGet login (OIDC → 短期 API key)
+      uses: NuGet/login@v1
+      id: login
+      with:
+        user: ${{ secrets.NUGET_USER }}   # nuget.org 帳號名稱（profile name，非 email）
+
     - name: push
       run: |
-        dotnet nuget push "nuget\**\*.nupkg" -s "nuget.org" -k "${{ secrets.NUGETAPIKEY }}" --skip-duplicate
+        dotnet nuget push "nuget\**\*.nupkg" --api-key ${{ steps.login.outputs.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
